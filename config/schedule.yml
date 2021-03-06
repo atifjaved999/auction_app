@@ -1,0 +1,3 @@
+my_first_job:
+  cron: "*/1 * * * *" # execute at every 1 minutes
+  class: "AuctionWorker"
